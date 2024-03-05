@@ -1,0 +1,124 @@
+/* Unverisal Styles */
+
+html {
+    font-size: 16px;
+}
+
+
+body {
+    font-family: Poppins,  "Nunito Sans", sans-serif;
+    background-color: #E4E4DE;
+    margin: 0 10%;
+}
+
+main {
+    position: relative;
+    top: 8rem;
+    display: grid;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 1; 
+}
+
+/* Color Schema */
+
+.ethereal-ivory {
+    background-color: #E4E4DE;
+    width: 20%;
+}
+
+.sophisticated-sage {
+    background-color: #C4C5BA;
+    width: 20%;
+}
+
+.muted-moss {
+    background-color: #595f39;
+    color: #fff;
+    width: 20%;
+}
+
+.timeless-noir {
+    background-color: #1B1B1B;
+    color: #fff;
+    width: 20%;
+}
+
+
+.font-panel-poppins {
+    font-family: Poppins;
+}
+
+.font-panel-sans-serif {
+    font-family: sans-serif;
+}
+
+/* Header */
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #595f39;
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    border-bottom: 1px solid seashell;
+    z-index: 100;
+    color: #E4E4DE;
+}
+
+header .logo {
+    padding: 3rem;
+    color: #E4E4DE;
+}
+
+header ul {
+    display: inline-flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 3rem;    
+}
+
+header a {
+    list-style: none;
+    margin-right: 1.5rem;
+    color: #E4E4DE;
+    text-decoration: none;
+}
+
+/* Main */
+
+section#about-me {
+    position: relative;
+    top: 3rem;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+}
+
+.about-me-text { 
+    text-align: left;
+}
+
+#headshot {
+    max-width: 75%;
+    max-height: 75%;
+    border-radius: 5%;
+}
+
+section#projects {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: first baseline;
+}
+
+.section#skills {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: first baseline;
+}
+
