@@ -126,3 +126,8 @@ section#projects ul {
     align-items: first baseline;
 }
 
+/* Projects Display Toggle */
+
+#pricingModelDesc {
+    display: none;
+}
